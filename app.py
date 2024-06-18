@@ -149,7 +149,7 @@ if zone_details:
         selected_vendor = st.selectbox(f"Select Payment Vendor for {zone}", payment_vendors)
         st.write(f"{zone}: Distance Travelled: {dist:.2f} km and Amount Deducted: {amount:.2f} INR")
 
-        # Display vehicle status
+        # display vehicle status
         vehicle_status = random.choice(["Moving", "Stationary"])
         if vehicle_type == "Ambulance":
             vehicle_status = "Moving"
